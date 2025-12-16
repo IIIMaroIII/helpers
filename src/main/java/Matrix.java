@@ -49,11 +49,10 @@ public class Matrix {
         for (int row = 0; row < matrix.length; row++) {
             int columnsMultiplication = 1;
             for (int col = 0; col < matrix[row].length; col++) {
-//                System.out.printf("The row is %d, the col is %d: \n", row, col);
                 columnsMultiplication *= matrix[col][row];
 
             }
-            System.out.printf("Row # %d, and result of multiplication is: %d\n", row, columnsMultiplication);
+            System.out.printf("Result of multiplication column # is: %d\n", columnsMultiplication);
             columnsMultiplication = 1;
         }
     }
